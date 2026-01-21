@@ -10,7 +10,10 @@
     "typescript": "^5"
   },
   "dependencies": {
+    "@prisma/adapter-pg": "^7.2.0",
     "@prisma/client": "^7.2.0",
+    "@types/node": "^25.0.9",
+    "@types/pg": "^8.16.0",
     "axios": "^1.13.2",
     "bcryptjs": "^3.0.3",
     "cloudinary": "^2.9.0",
@@ -23,6 +26,8 @@
     "lodash": "^4.17.21",
     "multer": "^2.0.2",
     "nodemailer": "^7.0.12",
+    "pg": "^8.17.2",
+    "prisma": "^7.2.0",
     "uuid": "^13.0.0"
   }
 }
